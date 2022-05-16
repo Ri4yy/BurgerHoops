@@ -1,0 +1,45 @@
+*,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      :root {
+        scroll-behavior: smooth;
+      }
+    }
+
+    body {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .nav-scroller {
+      overflow-y: hidden;
+      background-color: #fff;
+      
+    }
+
+    .nav-scroller__items {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .nav-scroller__item {
+      color: #424242;
+      display: flex;
+      padding: 0.5rem 4rem;
+      text-decoration: none;
+    }
+
+    .nav-scroller__items::-webkit-scrollbar {
+      display: none;
+    }

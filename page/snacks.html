@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="script/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC@8..144,60.2,388,-158,456,85,649,-143,664,448,569&display=swap" rel="stylesheet">
+    <title>Закуски</title>
+</head>
+<body>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item vi" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">Войти</a></li>
+          <li><a class="menu__item mu" href="menu.html">Меню</a></li>
+          <li><a class="menu__item ai" href="stock.html">Акции</a></li>
+          <li><a class="menu__item bi" href="bonuse.html">Бонусы</a></li>
+          <li><a class="menu__item da" href="delivery.html">Доставка</a></li>
+          <li><a class="menu__item ki" href="about.html">О компании</a></li>
+        </ul>
+      </div>
+    
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div style="text-align: center; padding-bottom: 3%;"><span style="font-size: 26px; font-weight: bold;">Укажи номер телефона</span>
+              <p style="font-size: 16px; color:#6C6C6C;">Чтобы войти или зарегистрироваться</p></div>
+                <div style="display: flex; flex-direction: column; justify-content: flex-start;">
+                  <div style="padding-bottom: 3%;"><input type="text" class="form-control" placeholder="Номер телефона">
+                  <div class="form-text" style="font-weight: 500; color: rgb(158, 158, 158); text-align: center;">Тебе будет отправлен код подтверждения</div></div>
+                  <div style="padding-bottom: 3%;"><input type="text" class="form-control" placeholder="Промокод друга"></div>
+                  <div><input type="checkbox" class="form-check-input text-center">
+                  <span style="font-size: 12px; color:#6C6C6C;"> Нажимая «Получить код», ты соглашаешься с <a href="#" class="check">Условиями использования,</a><br>
+                  <a href="#" class="check"> Правилами обработки персональных данных</a> и<a href="#" class="check"> Условиями программы<br> лояльности</a></span></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button class="auth__button">Получить код</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container h-menu">
+        <div class="row align-items-center">
+          <div class="col-lg-2 h-lg"><span class="h"><a href="#" class="hd-d hd">Чебоксары</a></span></div>
+          <div class="col-lg-2 col-1 h-lg"><span class="h hd"><a href="#" style="color:black">8 975 654 98 83</a></span></div>
+          <div class="col-lg-4 col-4 h-lg"><a href="../index.html"><img src="../img/Лого.png" class="h-logo" alt=""></a></div>
+          <div class="col-lg-2 col-1 h-lg"><div class="icon h"><span class="hd"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color:black">Войти</a></span></div></div>
+          <div class="col-lg-2 col-6 h-lg"><div class="cart"><a href="cart.html"><img src="../img/cart.png" alt="Корзина"></a></div></div>
+        </div>
+      </div>
+    
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div style="text-align: center; padding-bottom: 3%;"><span style="font-size: 26px; font-weight: bold;">Укажи номер телефона</span>
+              <p style="font-size: 16px; color:#6C6C6C;">Чтобы войти или зарегистрироваться</p></div>
+                <div style="display: flex; flex-direction: column; justify-content: flex-start;">
+                  <div style="padding-bottom: 3%;"><input type="text" class="form-control" placeholder="Номер телефона">
+                  <div class="form-text" style="font-weight: 500; color: rgb(158, 158, 158); text-align: center;">Тебе будет отправлен код подтверждения</div></div>
+                  <div style="padding-bottom: 3%;"><input type="text" class="form-control" placeholder="Промокод друга"></div>
+                  <div><input type="checkbox" class="form-check-input text-center">
+                  <span style="font-size: 12px; color:#6C6C6C;"> Нажимая «Получить код», ты соглашаешься с <a href="#" class="check">Условиями использования,</a><br>
+                  <a href="#" class="check"> Правилами обработки персональных данных</a> и<a href="#" class="check"> Условиями программы<br> лояльности</a></span></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button class="auth__button">Получить код</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container ">
+        <div class="nav-scroller">
+          <nav class="nav-scroller__items dragscroll">
+            <a class="nav-scroller__item" href="menu.html"><span class="nvig-menu">Новинки</span></a>
+            <a class="nav-scroller__item" href="burgers.html"><span class="nvig-menu">Бургеры</span></a>
+            <a class="nav-scroller__item" href="potato.html"><span class="nvig-menu">Картошка</span></a>
+            <a class="nav-scroller__item" href="#"><span class="nvig-menu">Соусы</span></a>
+            <a class="nav-scroller__item" href="#"><span class="nvig-menu">Закуски</span></a>
+            <a class="nav-scroller__item" href="stock.html"><span class="nvig-menu">Акции</span></a>
+            <a class="nav-scroller__item" href="bonuse.html"><span class="nvig-menu">Бонусы</span></a>
+          </nav>
+        </div>
+      </div>
+    
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-12"><span class="h-m"><a href="../index.html">Главная</a></span> / <span class="h-p">Закуски</span></div>
+            </div>
+        </div>
+
+        <div class="container my-5 pb-3">
+            <div class="row g-lg-5 g-md-3 g-sm-3 g-4">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 sh rounded">
+                    <div class="p-3 bg-white w-100 h-100">
+                        <img src="../img/наггетсы.png" class="img-menu" alt="">
+                        <div>
+                          <div>
+                            <span class="card-weight">6 штук</span>
+                            <p class="card-name">Наггетсы</p>
+                          </div>
+                          <div class="card-footer-pc">
+                            <div><h2 class="card-price">100 ₽</h2></div>
+                            <div><button class="basic__button">Корзина</button></div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 sh rounded">
+                    <div class="p-3 bg-white w-100 h-100">
+                        <img src="../img/курица.png" class="img-menu" alt="">
+                        <div>
+                          <div>
+                            <span class="card-weight">6 штук</span>
+                            <p class="card-name">Крылья во фритюре</p>
+                          </div>
+                          <div class="card-footer-pc">
+                            <div><h2 class="card-price">200 ₽</h2></div>
+                            <div><button class="basic__button">Корзина</button></div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
+              <div class="ft-top">
+                <div><div class="pb-4 footer-txt"><span>Название</span></div><div class="list"><p><a href="#">Акции</a></p><p><a href="bonuse.html">Бонусы</a></p><p><a href="about.html">О компании</a></p></div></div>
+              </div>
+              <div class="ft-top">
+                <div><div class="pb-4 footer-txt"><span>Юр.Информация</span></div><div class="list"><p><a href="#">Публичная оферта</a></p><p><a href="#">Инвестиции</a></p></div></div>
+              </div>
+              <div class="ft-top">
+                <div><div class="pb-4 footer-txt"><span>Доставка</span></div><div class="list"><p><a href="#">Рестораны</a></p><p><a href="delivery.html">Доставка и оплата</a></p></div></div>
+              </div>
+              <div class="ft-top">
+                <div><div class="pb-4 footer-txt"><span>Поддержка</span></div><div class="list"><p><a href="#">Контакты</a></p><p><a href="#">Вакансии</a></p></div></div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="container-fluid ft mt-5">
+            <div class="container py-3">
+              <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 col-4 foot"><a href="#"><img src="../img/Лого.png" alt="Инстаграм" class="ft-lg"></a><div style="padding-left: 15px; font-size: 12px; color:#6C6C6C;">BurgerHoops<br>Все права защищены</div></div>
+                <div class="col-lg-2 col-md-2 col-2 offset-6 offset-md-6 offset-lg-6 d-flex justify-content-end"><a href="#"><img src="../img/free-icon-instagram-2111463.png" alt="Инстаграм"></a></div>
+              </div>
+            </div>
+          </div>
+</body>
+</html>
