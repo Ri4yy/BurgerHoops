@@ -444,7 +444,7 @@ padding-left: 40px;
 
 @media (max-width: 992px){
   .fluid-bonuse-t{
-  background: linear-gradient(180deg, rgba(198, 255, 126, 0.13) 0%, #CFF0A5 22.4%, #BAEC7B 50.52%, #CFF0A5 79.17%, rgba(198, 255, 126, 0.13) 100%);
+  background: linear-gradient(180deg, rgba(253, 121, 0, 0) 0%, rgba(253, 121, 0, 0.7) 27.6%, rgba(253, 121, 0, 0) 100%);
   height: 650px;
   display: flex;
   flex-direction: row;
@@ -470,7 +470,7 @@ padding-left: 40px;
   }
 
   .fluid-bonuse{
-    background: linear-gradient(180deg, rgba(198, 255, 126, 0.13) 0%, #CFF0A5 22.4%, #BAEC7B 50.52%, #CFF0A5 79.17%, rgba(198, 255, 126, 0.13) 100%);
+    background: linear-gradient(180deg, rgba(253, 121, 0, 0) 0%, rgba(253, 121, 0, 0.7) 51.56%, rgba(253, 121, 0, 0) 97.92%);
     height: 100%;
     display: flex;
     flex-direction: row;
